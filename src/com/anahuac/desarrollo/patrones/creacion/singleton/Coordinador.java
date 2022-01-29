@@ -3,25 +3,16 @@ package com.anahuac.desarrollo.patrones.creacion.singleton;
 
 public class Coordinador {
 	
-	// Coordinaodr methods to interact with Horario
-	boolean classGenerated = false; 
-	
-	public boolean crearClase() {
-		boolean classGenerated = true;
-		return classGenerated; 
+	private String carrera;
+		
+	public Coordinador(String c) {
+		carrera = c; 
 	}
 	
-	public boolean verificarHoario() {
-		boolean flag = false;
-		if(classGenerated == true){
-			System.out.println("Clase Verificada");
-			flag = true;
-		}else {
-			System.out.println("Fallo en verificacion");
-			flag = false;
-		}
-		return flag; 
+	public void crearClase(String dia, String hora, String clase ) {
+		Horario.getInstance().agregarClase(dia, hora, clase);
 	}
+	
 	
 	
 
