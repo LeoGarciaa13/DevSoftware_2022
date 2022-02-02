@@ -1,4 +1,4 @@
-package com.anahuac.desarrollo.patrones.creacion.singleton;
+package com.mayab.desarrollo.creacion.singleton;
 // Coordinador Class that implements action methods to the exercise given
 
 public class Coordinador {

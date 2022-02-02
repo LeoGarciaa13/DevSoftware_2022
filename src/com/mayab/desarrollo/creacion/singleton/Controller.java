@@ -1,4 +1,4 @@
-package com.anahuac.desarrollo.patrones.creacion.singleton;
+package com.mayab.desarrollo.creacion.singleton;
 // Main Class Controller that calls the Singleton
 
 public class Controller {

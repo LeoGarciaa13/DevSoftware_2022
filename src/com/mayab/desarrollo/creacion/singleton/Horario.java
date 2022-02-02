@@ -1,4 +1,4 @@
-package com.anahuac.desarrollo.patrones.creacion.singleton;
+package com.mayab.desarrollo.creacion.singleton;
 
 import java.util.HashMap;
 import java.util.Map;
