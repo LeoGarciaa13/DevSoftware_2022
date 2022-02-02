@@ -1,6 +1,6 @@
 package com.mayab.desarrollo.creacion.simpleFactory;
 
-public class ElectricType {
+public class ElectricType extends ProductLine{
 	Auto factoryProduction(String item) {
 		if (item.equals("Leaf")) {
 			return new ElectricTypeLeaf();

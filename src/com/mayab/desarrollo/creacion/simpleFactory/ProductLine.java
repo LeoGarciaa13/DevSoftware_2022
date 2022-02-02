@@ -4,9 +4,10 @@ public abstract class ProductLine {
 		
 	abstract Auto factoryProduction(String item);
 	
-	public Auto ensableCar(String type) {
+	public Auto ensambleCar(String type) {
 		Auto auto = factoryProduction(type);
-		System.out.println("----- Building a " + auto.getModel() + "´-----");
+		System.out.println("----- Building a " + auto.getModel() + "-----");
+		auto.ensambleComponents();
 		auto.builded();
 		auto.paint();
 		auto.QAcar();
