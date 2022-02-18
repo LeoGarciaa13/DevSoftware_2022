@@ -16,6 +16,7 @@ public class ReporteVentas extends Reporte{
 		lista.add(articulo);
 	}
 	
+	
 	public void printReporte() {
 		System.out.println("----Reporte de Ventas-------\n");
 		expBehavior.export();

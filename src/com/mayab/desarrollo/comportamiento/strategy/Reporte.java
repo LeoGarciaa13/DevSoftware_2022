@@ -15,4 +15,9 @@ public abstract class Reporte {
 	public void performExport() {
 		expBehavior.export();
 	}
+	
+	// ABSTACTS METHODS 
+	public abstract void printReporte();
+	
+	public abstract void addArticulo(Articulo articulo); 
 }

@@ -16,7 +16,7 @@ public class ReporteMensual extends Reporte {
 	}
 	
 	public void printReporte() {
-		System.out.println("----Reporte de Ventas-------\n");
+		System.out.println("----Reporte Mensual-------\n");
 		expBehavior.export();
 		for(Articulo a: lista) {
 			System.out.println("- " + a.getNombre() + " | " + a.getCosto() + " | " + a.getCantidad());

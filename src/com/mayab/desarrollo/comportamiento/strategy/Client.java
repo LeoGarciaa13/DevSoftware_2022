@@ -27,9 +27,14 @@ public class Client {
 		mensual.addArticulo(art2);
 		
 		// Reporte 1 Add Behavior
+		// Add Products
+		reporte.addArticulo(art1);
+		reporte.addArticulo(art2);
+		// Printe reporte
+		reporte.printReporte();
 		reporte.setExportBehavior(new XML());
 		// Reporte 1 Add Articulos
-		reporte.performExport();
+		reporte.printReporte();
 		
 		
 		// Export Behavior
