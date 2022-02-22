@@ -1,6 +1,6 @@
 package com.mayab.desarrollo.parcial1.problema2;
 
-public class BorderTax extends Product{
+public class BorderTax extends TaxesDecorator{
 	Product product; 
 	
 	public BorderTax(Product product) {

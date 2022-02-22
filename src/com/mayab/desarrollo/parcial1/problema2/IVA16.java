@@ -1,6 +1,6 @@
 package com.mayab.desarrollo.parcial1.problema2;
 
-public class IVA16 extends Product {
+public class IVA16 extends TaxesDecorator{
 	Product product; 
 	
 	public IVA16(Product product) {
