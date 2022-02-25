@@ -1266,6 +1266,19 @@
 							"headQualifiersCompartment": {
 								"$ref": "AAAAAAF+/ub6K06GBJc="
 							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF/LjhOihn6Ktw=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 48,
+							"top": 440,
+							"width": 273,
+							"height": 64,
+							"text": "Singleton Pattern - Leonardo Garcia"
 						}
 					]
 				},
@@ -1375,7 +1388,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF+/t6yTU0jo98="
 									},
-									"name": "String dia"
+									"name": "String dia",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
@@ -1383,7 +1397,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF+/t6yTU0jo98="
 									},
-									"name": "String Hora"
+									"name": "String Hora",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
@@ -1391,7 +1406,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF+/t6yTU0jo98="
 									},
-									"name": "String clase"
+									"name": "String clase",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
@@ -1536,7 +1552,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF+/uVYVU24lZM="
 									},
-									"name": "String dia"
+									"name": "String dia",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
@@ -1544,7 +1561,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF+/uVYVU24lZM="
 									},
-									"name": "String hora"
+									"name": "String hora",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
@@ -1552,7 +1570,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF+/uVYVU24lZM="
 									},
-									"name": "String clase"
+									"name": "String clase",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
