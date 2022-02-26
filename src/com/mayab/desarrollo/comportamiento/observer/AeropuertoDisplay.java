@@ -1,5 +1,5 @@
 package com.mayab.desarrollo.comportamiento.observer;
-
+// Display Aeropuerto
 public class AeropuertoDisplay implements Observer, DisplayElement{
 	private String fromTo;
 	private String hora;
